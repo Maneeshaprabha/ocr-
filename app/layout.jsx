@@ -1,9 +1,8 @@
 
 import "./globals.css";
-import "./globals.css";
-import { LanguageProvider } from "@/app/Provider/LanguageProvider";
-import { ThemeProvider } from "@/app/Provider/ThemeProvider";
-import { AuthProvider } from "@/app/components/context/AuthProvider";
+import { LanguageProvider } from "./provider/LanguageProvider";
+import { ThemeProvider } from "./provider/ThemeProvider";
+import { AuthProvider } from "./components/context/AuthProvider";
 
 export const metadata = {
   title: "OCR Processor",
