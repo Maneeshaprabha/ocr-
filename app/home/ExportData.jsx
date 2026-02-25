@@ -21,7 +21,6 @@ import { useAuth } from "@/app/components/context/AuthProvider";
 import ExcelJS from 'exceljs';
 import { saveAs } from 'file-saver';
 
-import { exportExcelDummy, exportPdfDummy, exportTextDummy } from "../utils/dummy";
 
 const FILE_TYPES = {
   pdf: ["pdf"],

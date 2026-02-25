@@ -1,7 +1,7 @@
 
 import "./globals.css";
-import { LanguageProvider } from "./provider/LanguageProvider";
-import { ThemeProvider } from "./provider/ThemeProvider";
+import { LanguageProvider } from "@/app/provider/LanguageProvider";
+import { ThemeProvider } from "@/app/provider/ThemeProvider";
 import { AuthProvider } from "./components/context/AuthProvider";
 
 export const metadata = {
