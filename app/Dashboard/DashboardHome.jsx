@@ -87,7 +87,7 @@ export default function DashboardHome() {
 
     fetchDashboardData();
 
-    // Subscribe to real-time changes on the documents table
+    
     const subscription = client
       .channel("dashboard_changes")
       .on(
