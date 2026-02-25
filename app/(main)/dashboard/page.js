@@ -1,4 +1,4 @@
-import DashboardHome from "../../Dashboard/DashboardHome";
+import DashboardHome from "../../home/DashboardHome";
 
  
 export default function DashboardPage() {
